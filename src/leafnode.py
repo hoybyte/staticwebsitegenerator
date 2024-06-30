@@ -33,5 +33,3 @@ class LeafNode(HTMLNode):
             # Render an HTML tag with attributes
             attributes = self.props_to_html()
             return f"<{self.tag} {attributes}>{self.value}</{self.tag}>"
-
-
